@@ -86,7 +86,7 @@ def load_obj_mesh_mtl(mesh_file):
             vt = list(map(float, values[1:3]))
             uv_data.append(vt)
         elif values[0] == 'mtllib':
-            mtl_data = read_mtlfile(mesh_file.replace(mesh_file.split('/')[-1],values[1]))
+            mtl_data = read_mtlfile(mesh_file.replace(mesh_file.split('/')[-1], values[1]))
         elif values[0] == 'usemtl':
             cur_mat = values[1]
         elif values[0] == 'f':
@@ -196,13 +196,13 @@ def load_obj_mesh(mesh_file, with_normal=False, with_texture=False):
         elif values[0] == 'vn':
             vn = list(map(float, values[1:4]))
             norm_data.append(vn)
-        elif values[0] == 'vt':
+        elif values[0] == 'vt': # Aquí el meu no entra mai -> no uv_data !!
             vt = list(map(float, values[1:3]))
             uv_data.append(vt)
 
         elif values[0] == 'f':
             # quad mesh
-            if len(values) > 4:
+            if len(values) > 4: # Aquí el meu no entra mai
                 f = list(map(lambda x: int(x.split('/')[0]), values[1:4]))
                 face_data.append(f)
                 f = list(map(lambda x: int(x.split('/')[0]), [values[3], values[4], values[1]]))
@@ -213,9 +213,9 @@ def load_obj_mesh(mesh_file, with_normal=False, with_texture=False):
                 face_data.append(f)
             
             # deal with texture
-            if len(values[1].split('/')) >= 2:
+            if len(values[1].split('/')) >= 2: # Aquí el meu entra
                 # quad mesh
-                if len(values) > 4:
+                if len(values) > 4: # Aquí el meu no entra
                     f = list(map(lambda x: int(x.split('/')[1]), values[1:4]))
                     face_uv_data.append(f)
                     f = list(map(lambda x: int(x.split('/')[1]), [values[3], values[4], values[1]]))
@@ -225,7 +225,7 @@ def load_obj_mesh(mesh_file, with_normal=False, with_texture=False):
                     f = list(map(lambda x: int(x.split('/')[1]), values[1:4]))
                     face_uv_data.append(f)
             # deal with normal
-            if len(values[1].split('/')) == 3:
+            if len(values[1].split('/')) == 3: # Aquí el meu no entra mai -> no face_norm_data !!
                 # quad mesh
                 if len(values) > 4:
                     f = list(map(lambda x: int(x.split('/')[2]), values[1:4]))
@@ -340,6 +340,15 @@ def compute_tangent(vertices, faces, normals, uvs, faceuvs):
 
     return tan, btan
 
-if __name__ == '__main__':
-    pts, tri, nml, trin, uvs, triuv = load_obj_mesh('/home/ICT2000/ssaito/Documents/Body/tmp/Baseball_Pitching/0012.obj', True, True)
-    compute_tangent(pts, tri, uvs, triuv)
+#vertices, faces, normals, face_normals, textures, face_textures = load_obj_mesh('/Volumes/CKXZ 1/@City/363, FP/Dataset(s)/decimated_obj-dataset/0/Bust/"The Younger Memnon", Colossal bust of Ramesses II.obj', with_normal=True, with_texture=True)
+#vertices, faces, normals, face_normals, textures, face_textures = load_obj_mesh('/Volumes/CKXZ 1/@City/363, FP/Dataset(s)/decimated_obj-dataset/0/Bust/A Roman marble portrait head of the Emperor Caracalla.obj', with_normal=True, with_texture=True)
+
+#vertices, faces, normals, face_normals, textures, face_textures = load_obj_mesh('/Users/ckxz/Desktop/untitled.obj', with_normal=True, with_texture=True)
+
+#print(f'vertices:  {vertices.shape}, faces: {faces.shape}, normals: {normals.shape}, face_normals: {face_normals.shape}, textures: {textures.shape}, face_textures: {face_textures.shape}')
+
+
+
+#if __name__ == '__main__':
+#    pts, tri, nml, trin, uvs, triuv = load_obj_mesh('/home/ICT2000/ssaito/Documents/Body/tmp/Baseball_Pitching/0012.obj', True, True)
+#    compute_tangent(pts, tri, uvs, triuv)

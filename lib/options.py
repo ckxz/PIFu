@@ -10,7 +10,7 @@ class BaseOptions():
         # Datasets related
         g_data = parser.add_argument_group('Data')
         g_data.add_argument('--dataroot', type=str, default='./data',
-                            help='path to images (data folder)')
+                            help='path to images (data folder)') # Originally pointed at Data folder (containing GEO, MASK, PARAM,RENDER, etc.)
 
         g_data.add_argument('--loadSize', type=int, default=512, help='load size of input image')
 
@@ -38,9 +38,9 @@ class BaseOptions():
         g_train.add_argument('--learning_rateC', type=float, default=1e-3, help='adam learning rate')
         g_train.add_argument('--num_epoch', type=int, default=100, help='num epoch to train')
 
-        g_train.add_argument('--freq_plot', type=int, default=10, help='freqency of the error plot')
-        g_train.add_argument('--freq_save', type=int, default=50, help='freqency of the save_checkpoints')
-        g_train.add_argument('--freq_save_ply', type=int, default=100, help='freqency of the save ply')
+        g_train.add_argument('--freq_plot', type=int, default=10, help='frequency of the error plot')
+        g_train.add_argument('--freq_save', type=int, default=50, help='frequency of the save_checkpoints')
+        g_train.add_argument('--freq_save_ply', type=int, default=100, help='frequency of the save ply')
        
         g_train.add_argument('--no_gen_mesh', action='store_true')
         g_train.add_argument('--no_num_eval', action='store_true')

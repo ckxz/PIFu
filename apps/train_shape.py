@@ -1,8 +1,9 @@
 import sys
 import os
 
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-ROOT_PATH = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+PACKAGE_PARENT = '..'
+SCRIPT_DIR = os.path.dirname(os.path.realpath(os.path.join(os.getcwd(), os.path.expanduser(__file__))))
+sys.path.append(os.path.normpath(os.path.join(SCRIPT_DIR, PACKAGE_PARENT)))
 
 import time
 import json
@@ -21,8 +22,6 @@ from lib.data import *
 from lib.model import *
 from lib.geometry import index
 
-# get options
-opt = BaseOptions().parse()
 
 def train(opt):
     # set cuda
@@ -180,4 +179,7 @@ def train(opt):
 
 
 if __name__ == '__main__':
+    # get options
+    opt = BaseOptions().parse()
+
     train(opt)
