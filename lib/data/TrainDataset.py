@@ -17,8 +17,15 @@ def load_trimesh(root_dir):
     folders = os.listdir(root_dir)
     meshs = {}
     for i, f in enumerate(folders):
+
+        ### TEMPRORARY TRICK TO BYPASS UNRESOLVED FILE LOADING DUE TO NAME ENCODING ###
+        unresolved = [x[:-1].split('/')[-2] for x in open('/home/enterprise.internal.city.ac.uk/adbb120/pifuhd/data/pp_output_external_v.1/unresolved_obj.txt', 'r').readlines()]
+        if f in unresolved:
+            continue
+        ###
+
         sub_name = f
-        meshs[sub_name] = trimesh.load(os.path.join(root_dir, f, '%s_100k.obj' % sub_name))
+        meshs[sub_name] = trimesh.load(os.path.join(root_dir, f, f + '.obj'))
 
     return meshs
 
@@ -99,6 +106,12 @@ class TrainDataset(Dataset):
 
     def get_subjects(self):
         all_subjects = os.listdir(self.RENDER)
+
+        ### TEMPRORARY TRICK TO BYPASS UNRESOLVED FILE LOADING DUE TO NAME ENCODING ###
+        unresolved = [x[:-1].split('/')[-2] for x in open('/home/enterprise.internal.city.ac.uk/adbb120/pifuhd/data/pp_output_external_v.1/unresolved_obj.txt', 'r').readlines()]
+        all_subjects = [x for x in all_subjects if x not in unresolved]
+        ###
+
         var_subjects = np.loadtxt(os.path.join(self.root, 'val.txt'), dtype=str)
         if len(var_subjects) == 0:
             return all_subjects

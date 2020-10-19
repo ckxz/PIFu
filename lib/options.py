@@ -9,7 +9,7 @@ class BaseOptions():
     def initialize(self, parser):
         # Datasets related
         g_data = parser.add_argument_group('Data')
-        g_data.add_argument('--dataroot', type=str, default='./data',
+        g_data.add_argument('--dataroot', type=str, default='/home/enterprise.internal.city.ac.uk/adbb120/pifuhd/data/pp_output_external_v.1/Bust',
                             help='path to images (data folder)') # Originally pointed at Data folder (containing GEO, MASK, PARAM,RENDER, etc.)
 
         g_data.add_argument('--loadSize', type=int, default=512, help='load size of input image')
