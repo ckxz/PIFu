@@ -168,11 +168,15 @@ def render_prt_ortho(out_path, obj_uv_filespath, prep_filespath, shs, rndr, rndr
 	# print(uv_pos_path)
 	uv_normal_path = Path(os.path.join(out_path, 'UV_NORMAL', objnuv_filepath.split('/')[-1]))
 	# print(uv_normal_path)
-	#with open ('/home/enterprise.internal.city.ac.uk/adbb120/pifuhd/PIFu/pathes.txt', 'w') as f:
-	#	f.write('Pathes created.')
-	if os.path.exists(param_path) and os.path.exists(render_path) and os.path.exists(mask_path) and os.path.exists(
-			uv_render_path) and os.path.exists(mask_path) and os.path.join(uv_render_path) and os.path.exists(
-			uv_mask_path) and os.path.exists(uv_pos_path) and os.path.exists(uv_normal_path):
+
+	if os.path.exists(os.path.join(geo_path, objnuv_filepath.split('/')[-1] + '.obj')) and \
+			os.path.exists(os.path.join(param_path, '359_0_00.npy')) and \
+			os.path.exists(os.path.join(render_path, '359_0_00.jpg')) and \
+			os.path.exists(os.path.join(mask_path, '359_0_00.png')) and \
+			os.path.exists(os.path.join(uv_render_path, '359_0_00.jpg')) and \
+			os.path.exists(os.path.join(uv_mask_path, '00.png')) and \
+			os.path.exists(os.path.join(uv_pos_path, '00.exr')) and \
+			os.path.exists(os.path.join(uv_normal_path, '00.png')):
 		print('Files exist, stepping out.')
 		return
 	else:
@@ -285,7 +289,7 @@ def render_prt_ortho(out_path, obj_uv_filespath, prep_filespath, shs, rndr, rndr
 				out_mask = out_all_f[:, :, 3]
 				out_all_f = cv2.cvtColor(out_all_f, cv2.COLOR_RGBA2BGR)
 
-				np.save(os.path.join(param_path, '%d_%d_%02d.npy' % (y, p, j)), dic)
+				np.save(os.path.join(param_path, '%d_%d_%02d.npy' % (y, p, j)), dic, allow_pickle=True)
 				cv2.imwrite(os.path.join(render_path, '%d_%d_%02d.jpg' % (y, p, j)),
 							255.0 * out_all_f)
 				cv2.imwrite(os.path.join(mask_path, '%d_%d_%02d.png' % (y, p, j)),
@@ -321,15 +325,15 @@ def render_prt_ortho(out_path, obj_uv_filespath, prep_filespath, shs, rndr, rndr
 #wtight_bust = [x[:-1] for x in open('/Volumes/CKXZ 1/@City/363, FP/Dataset(s)/decimated_obj-dataset/watertight_BUSTS.txt', 'r').readlines() if '.obj' in x] # Local
 #wtight_statue = [x[:-1] for x in open('/Volumes/CKXZ 1/@City/363, FP/Dataset(s)/decimated_obj-dataset/watertight_STATUES.txt', 'r').readlines() if '.obj' in x] # Local
 
-wtight_bust = open('/home/enterprise.internal.city.ac.uk/adbb120/pifuhd/data/decimated_obj-dataset_vt/watertight_BUSTS.txt', 'r').readlines() # Camber
-wtight_statue = open('/home/enterprise.internal.city.ac.uk/adbb120/pifuhd/data/decimated_obj-dataset_vt/watertight_STATUES.txt').readlines() # Camber
+wtight_bust =  [x[:-1] for x in open('/home/enterprise.internal.city.ac.uk/adbb120/pifuhd/data/decimated_reoriented_vt/watertight_BUST.txt', 'r').readlines() if '.obj' in x] # Camber
+wtight_statue = [x[:-1] for x in open('/home/enterprise.internal.city.ac.uk/adbb120/pifuhd/data/decimated_reoriented_vt/watertight_STATUE.txt', 'r').readlines() if '.obj' in x] # Camber
 
 #file_src = '/Volumes/CKXZ 1/@City/363, FP/Dataset(s)/decimated_obj-dataset_vt' # Local
-file_src = '/home/enterprise.internal.city.ac.uk/adbb120/pifuhd/data/decimated_obj-dataset_vt' # Camber
+file_src = '/home/enterprise.internal.city.ac.uk/adbb120/pifuhd/data/decimated_reoriented_vt' # Camber
 #prep_src = '/Volumes/CKXZ 1/@City/363, FP/AISculpture/PIFuHD/DS-Related/preprocessd_data/prt_util' # Local
-prep_src = '/home/enterprise.internal.city.ac.uk/adbb120/pifuhd/data/prt_util' # Camber
+prep_src = '/home/enterprise.internal.city.ac.uk/adbb120/pifuhd/data/prt_util_reoriented' # Camber
 #dst = '/Volumes/CKXZ 1/@City/363, FP/AISculpture/PIFuHD/DS-Related/preprocessd_data/output_tryitlocal' # Local
-dst = '/home/enterprise.internal.city.ac.uk/adbb120/pifuhd/data/pp_output_camber' # Camber
+dst = '/home/enterprise.internal.city.ac.uk/adbb120/pifuhd/data/pp_output_reoriented' # Camber
 #env_sh = '/Users/ckxz/Desktop/@City/363, FP/PIFu/env_sh.npy' # Local
 env_sh = '/home/enterprise.internal.city.ac.uk/adbb120/pifuhd/PIFu/env_sh.npy'
 
@@ -345,6 +349,9 @@ from lib.renderer.gl.prt_render import PRTRender
 rndr = PRTRender(width=512, height=512, ms_rate=1, egl=True)
 rndr_uv = PRTRender(width=512, height=512, uv_mode=True, egl=True)
 
+#ccount = 0
+#fcount = 0
+#ftcount = 0
 
 for folder in folders:
 	#if not os.path.exists(os.path.join(dst, folder)):
@@ -355,15 +362,21 @@ for folder in folders:
 			os.mkdir(os.path.join(dst, rep))
 		files = [x for x in os.listdir(os.path.join(file_src, folder, rep)) if not x.startswith('.') and not x.endswith(('.mtl', '.png'))]
 		for fname in files:
-			if os.path.join(folder, rep, fname) not in wtight_bust and fname not in wtight_statue:
+			if os.path.join(folder, rep, fname) not in wtight_bust and os.path.join(folder, rep, fname) not in wtight_statue:
+				#ccount += 1
+				#with open('/home/enterprise.internal.city.ac.uk/adbb120/pifuhd/data/ccount.txt', 'w') as f:
+				#	f.write(str(ccount))
 				continue
 			else:
+				#fcount += 1
+				#with open('/home/enterprise.internal.city.ac.uk/adbb120/pifuhd/data/fcount.txt', 'w') as f:
+				#	f.write(str(fcount))
 				objnuv_filepath = os.path.join(file_src, folder, rep, fname[:-4])
 				print(objnuv_filepath.split('/')[-1])
 				prep_filespath = os.path.join(prep_src, folder, rep, fname[:-4] + '__')
 				dst_path = os.path.join(dst, rep)
-				#with open('/home/enterprise.internal.city.ac.uk/adbb120/pifuhd/PIFu/intorender.txt', 'w') as f:
-				#	f.write('Going in render_prt_ortho()...')
-				#render_prt_ortho(dst_path, objnuv_filepath, prep_filespath, shs, rndr, rndr_uv, 512, 1, 1, pitch=[0])
-				#with open('/home/enterprise.internal.city.ac.uk/adbb120/pifuhd/PIFu/endloop.txt', 'w') as f:
-				#	f.write('Run through whole loop.')
+				render_prt_ortho(dst_path, objnuv_filepath, prep_filespath, shs, rndr, rndr_uv, 512, 1, 1, pitch=[0])
+				#ftcount += 1
+				#with open('/home/enterprise.internal.city.ac.uk/adbb120/pifuhd/data/ftcount.txt', 'w') as f:
+				#	f.write(str(ftcount))
+

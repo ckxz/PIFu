@@ -17,8 +17,8 @@ MLP_DIM_COLOR='513 1024 512 256 128 3'
 VOL_RES=256
 
 CHECKPOINTS_NETG_PATH='./checkpoints/net_G'
-CHECKPOINTS_NETC_PATH='./checkpoints/net_C'
-
+#CHECKPOINTS_NETC_PATH='./checkpoints/net_C'
+#CHECKPOINTS_NETC_PATH=None
 TEST_FOLDER_PATH='./sample_images'
 
 # command
@@ -35,4 +35,4 @@ CUDA_VISIBLE_DEVICES=${GPU_ID} python ./apps/eval.py \
     --norm_color 'group' \
     --test_folder_path ${TEST_FOLDER_PATH} \
     --load_netG_checkpoint_path ${CHECKPOINTS_NETG_PATH} \
-    --load_netC_checkpoint_path ${CHECKPOINTS_NETC_PATH}
+    #--load_netC_checkpoint_path ${CHECKPOINTS_NETC_PATH}

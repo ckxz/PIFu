@@ -19,9 +19,9 @@ def load_trimesh(root_dir):
     for i, f in enumerate(folders):
 
         ### TEMPRORARY TRICK TO BYPASS UNRESOLVED FILE LOADING DUE TO NAME ENCODING ###
-        unresolved = [x[:-1].split('/')[-2] for x in open('/home/enterprise.internal.city.ac.uk/adbb120/pifuhd/data/pp_output_external_v.1/unresolved_obj.txt', 'r').readlines()]
-        if f in unresolved:
-            continue
+        #unresolved = [x[:-1].split('/')[-2] for x in open('/home/enterprise.internal.city.ac.uk/adbb120/pifuhd/data/pp_output_external_v.1/unresolved_obj.txt', 'r').readlines()]
+        #if f in unresolved:
+        #    continue
         ###
 
         sub_name = f
@@ -108,11 +108,11 @@ class TrainDataset(Dataset):
         all_subjects = os.listdir(self.RENDER)
 
         ### TEMPRORARY TRICK TO BYPASS UNRESOLVED FILE LOADING DUE TO NAME ENCODING ###
-        unresolved = [x[:-1].split('/')[-2] for x in open('/home/enterprise.internal.city.ac.uk/adbb120/pifuhd/data/pp_output_external_v.1/unresolved_obj.txt', 'r').readlines()]
-        all_subjects = [x for x in all_subjects if x not in unresolved]
+        #unresolved = [x[:-1].split('/')[-2] for x in open('/home/enterprise.internal.city.ac.uk/adbb120/pifuhd/data/pp_output_external_v.1/unresolved_obj.txt', 'r').readlines()]
+        #all_subjects = [x for x in all_subjects if x not in unresolved]
         ###
 
-        var_subjects = np.loadtxt(os.path.join(self.root, 'val.txt'), dtype=str)
+        var_subjects = np.loadtxt(os.path.join(self.root, 'val.txt'), dtype=str, delimiter='\n')
         if len(var_subjects) == 0:
             return all_subjects
 

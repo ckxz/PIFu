@@ -9,14 +9,14 @@ class BaseOptions():
     def initialize(self, parser):
         # Datasets related
         g_data = parser.add_argument_group('Data')
-        g_data.add_argument('--dataroot', type=str, default='/home/enterprise.internal.city.ac.uk/adbb120/pifuhd/data/pp_output_reoriented/Bust',
+        g_data.add_argument('--dataroot', type=str, default='/home/enterprise.internal.city.ac.uk/adbb120/pifuhd/data/pp_output_reoriented/Statue',
                             help='path to images (data folder)') # Originally pointed at Data folder (containing GEO, MASK, PARAM,RENDER, etc.)
 
         g_data.add_argument('--loadSize', type=int, default=512, help='load size of input image')
 
         # Experiment related
         g_exp = parser.add_argument_group('Experiment')
-        g_exp.add_argument('--name', type=str, default='e0Bust',
+        g_exp.add_argument('--name', type=str, default='e0Statue',
                            help='name of the experiment. It decides where to store samples and models')
         g_exp.add_argument('--debug', action='store_true', help='debug mode or not')
 
@@ -107,7 +107,7 @@ class BaseOptions():
 
         # path
         parser.add_argument('--checkpoints_path', type=str, default='/home/enterprise.internal.city.ac.uk/adbb120/pifuhd/PIFu/checkpoints', help='path to save checkpoints')
-        parser.add_argument('--load_netG_checkpoint_path', type=str, default=None, help='path to save checkpoints')
+        parser.add_argument('--load_netG_checkpoint_path', type=str, default='/home/enterprise.internal.city.ac.uk/adbb120/pifuhd/PIFu/checkpoints/e0Statue/pretrained_net_G', help='path to save checkpoints')
         parser.add_argument('--load_netC_checkpoint_path', type=str, default=None, help='path to save checkpoints')
         parser.add_argument('--results_path', type=str, default='/home/enterprise.internal.city.ac.uk/adbb120/pifuhd/PIFu/results', help='path to save results ply')
         parser.add_argument('--load_checkpoint_path', type=str, help='path to save results ply')

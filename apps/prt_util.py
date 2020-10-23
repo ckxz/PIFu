@@ -12,8 +12,8 @@ from scipy.special import sph_harm
 #watertight_busts_path = '/Volumes/CKXZ 1/@City/363, FP/Dataset(s)/decimated_obj-dataset/watertight_BUSTS.txt' # Local
 #watertight_statues_path = '/Volumes/CKXZ 1/@City/363, FP/Dataset(s)/decimated_obj-dataset/watertight_STATUES.txt' # Local
 root = '/home/enterprise.internal.city.ac.uk/adbb120/pifuhd' # Server
-watertight_busts_path = os.path.join(root, 'data/decimated_obj-dataset_vt/watertight_BUSTS.txt') # Server
-watertight_statues_path = os.path.join(root, 'data/decimated_obj-dataset_vt/watertight_STATUES.txt') # Server
+watertight_busts_path = os.path.join(root, 'data/decimated_reoriented_vt/watertight_BUST.txt') # Server
+watertight_statues_path = os.path.join(root, 'data/decimated_reoriented_vt/watertight_STATUE.txt') # Server
 
 watertight_bust = [x.strip('\n').split('/')[-1] for x in open(watertight_busts_path, 'r').readlines()][1:]
 watertight_statue = [x.strip('\n').split('/')[-1] for x in open(watertight_statues_path, 'r').readlines()][1:]
@@ -208,10 +208,10 @@ if __name__ == '__main__':
 	#parser.add_argument('-wb', '--wtight_bust', type=str, default='/Volumes/CKXZ 1/@City/363, FP/Dataset(s)/decimated_obj-dataset/watertight_BUSTS.txt')
 	#parser.add_argument('-ws', '--wtight_statue', type=str, default='/Volumes/CKXZ 1/@City/363, FP/Dataset(s)/decimated_obj-dataset/watertight_STATUES.txt')
 	# Server
-	parser.add_argument('-i', '--input', type=str, default='/home/enterprise.internal.city.ac.uk/adbb120/pifuhd/data/decimated_obj-dataset_vt')
-	parser.add_argument('-o', '--out_dir', type=str, default='/home/enterprise.internal.city.ac.uk/adbb120/pifuhd/data/prt_util')
-	parser.add_argument('-wb', '--wtight_bust', type=str, default='/home/enterprise.internal.city.ac.uk/adbb120/pifuhd/data/decimated_obj-dataset_vt/watertight_BUSTS.txt')
-	parser.add_argument('-ws', '--wtight_statue', type=str, default='/home/enterprise.internal.city.ac.uk/adbb120/pifuhd/data/decimated_obj-dataset_vt/watertight_STATUES.txt')
+	parser.add_argument('-i', '--input', type=str, default='/home/enterprise.internal.city.ac.uk/adbb120/pifuhd/data/decimated_reoriented_vt')
+	parser.add_argument('-o', '--out_dir', type=str, default='/home/enterprise.internal.city.ac.uk/adbb120/pifuhd/data/prt_util_reoriented')
+	parser.add_argument('-wb', '--wtight_bust', type=str, default='/home/enterprise.internal.city.ac.uk/adbb120/pifuhd/data/decimated_reoriented_vt/watertight_BUST.txt')
+	parser.add_argument('-ws', '--wtight_statue', type=str, default='/home/enterprise.internal.city.ac.uk/adbb120/pifuhd/data/decimated_reoriented_vt/watertight_STATUE.txt')
 	parser.add_argument('-n', '--n_sample', type=int, default=40,
 						help='squared root of number of sampling. the higher, the more accurate, but slower')
 	args = parser.parse_args()
