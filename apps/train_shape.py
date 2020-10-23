@@ -14,7 +14,7 @@ import torch
 from torch.utils.data import DataLoader
 from tqdm import tqdm
 
-from lib.options_e0statue import BaseOptions
+from lib.options_e0bust import BaseOptions
 from lib.mesh_util import *
 from lib.sample_util import *
 from lib.train_util import *

@@ -27,6 +27,9 @@ def load_trimesh(root_dir):
         sub_name = f
         meshs[sub_name] = trimesh.load(os.path.join(root_dir, f, f + '.obj'))
 
+    with open(os.path.join(root_dir, 'mesh_dict.txt'), 'w') as f:
+        for key in meshs.keys():
+            f.write(f'{key}: {meshs[key]}\n')
     return meshs
 
 def save_samples_truncted_prob(fname, points, prob):
