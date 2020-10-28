@@ -45,7 +45,7 @@ class BaseOptions():
         g_train.add_argument('--no_gen_mesh', action='store_true')
         g_train.add_argument('--no_num_eval', action='store_true')
         
-        g_train.add_argument('--resume_epoch', type=int, default=-1, help='epoch resuming the training')
+        g_train.add_argument('--resume_epoch', type=int, default=4, help='epoch resuming the training')
         g_train.add_argument('--continue_train', action='store_true', help='continue training: load the latest model')
 
         # Testing related
@@ -107,7 +107,7 @@ class BaseOptions():
 
         # path
         parser.add_argument('--checkpoints_path', type=str, default='/home/enterprise.internal.city.ac.uk/adbb120/pifuhd/PIFu/checkpoints', help='path to save checkpoints')
-        parser.add_argument('--load_netG_checkpoint_path', type=str, default=None, help='path to save checkpoints')
+        parser.add_argument('--load_netG_checkpoint_path', type=str, default='/home/enterprise.internal.city.ac.uk/adbb120/pifuhd/PIFu/checkpoints/e0Bust/netG_epoch_2', help='path to save checkpoints')
         parser.add_argument('--load_netC_checkpoint_path', type=str, default=None, help='path to save checkpoints')
         parser.add_argument('--results_path', type=str, default='/home/enterprise.internal.city.ac.uk/adbb120/pifuhd/PIFu/results', help='path to save results ply')
         parser.add_argument('--load_checkpoint_path', type=str, help='path to save results ply')

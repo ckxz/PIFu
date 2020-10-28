@@ -62,7 +62,8 @@ def train(opt):
         print('loading for net G ...', opt.load_netG_checkpoint_path)
         netG.load_state_dict(torch.load(opt.load_netG_checkpoint_path, map_location=cuda))
 
-    if opt.continue_train:
+    #if opt.continue_train:
+    if True:
         if opt.resume_epoch < 0:
             model_path = '%s/%s/netG_latest' % (opt.checkpoints_path, opt.name)
         else:
@@ -80,7 +81,7 @@ def train(opt):
         outfile.write(json.dumps(vars(opt), indent=2))
 
     # training
-    start_epoch = 0 if not opt.continue_train else max(opt.resume_epoch,0)
+    start_epoch = 0 if opt.continue_train else max(opt.resume_epoch,0)
     for epoch in range(start_epoch, opt.num_epoch):
         epoch_start_time = time.time()
 

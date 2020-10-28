@@ -4,7 +4,7 @@ set -ex
 # Training
 GPU_ID=0
 DISPLAY_ID=$((GPU_ID*10+10))
-NAME='pifu_demo'
+NAME='try_statue'
 
 # Network configuration
 
@@ -16,10 +16,10 @@ MLP_DIM_COLOR='513 1024 512 256 128 3'
 # NOTE: one can change here to reconstruct mesh in a different resolution.
 VOL_RES=256
 
-CHECKPOINTS_NETG_PATH='./checkpoints/net_G'
+CHECKPOINTS_NETG_PATH='./checkpoints/netG_statue'
 #CHECKPOINTS_NETC_PATH='./checkpoints/net_C'
 #CHECKPOINTS_NETC_PATH=None
-TEST_FOLDER_PATH='./sample_images'
+TEST_FOLDER_PATH='./sample_images/statue'
 
 # command
 CUDA_VISIBLE_DEVICES=${GPU_ID} python ./apps/eval.py \
