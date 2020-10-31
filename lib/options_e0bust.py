@@ -45,7 +45,7 @@ class BaseOptions():
         g_train.add_argument('--no_gen_mesh', action='store_true')
         g_train.add_argument('--no_num_eval', action='store_true')
         
-        g_train.add_argument('--resume_epoch', type=int, default=4, help='epoch resuming the training')
+        g_train.add_argument('--resume_epoch', type=int, default=7, help='epoch resuming the training')
         g_train.add_argument('--continue_train', action='store_true', help='continue training: load the latest model')
 
         # Testing related

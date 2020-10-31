@@ -108,9 +108,7 @@ class BaseOptions():
         # path
         parser.add_argument('--checkpoints_path', type=str, default='/home/enterprise.internal.city.ac.uk/adbb120/pifuhd/PIFu/checkpoints', help='path to save checkpoints')
         #parser.add_argument('--load_netG_checkpoint_path', type=str, default='/home/enterprise.internal.city.ac.uk/adbb120/pifuhd/PIFu/checkpoints/e0Statue/pretrained_net_G', help='path to save checkpoints')
-        parser.add_argument('--load_netG_checkpoint_path', type=str,
-                            default=None,
-                            help='path to save checkpoints')
+        parser.add_argument('--load_netG_checkpoint_path', type=str, default=None, help='path to save checkpoints')
         parser.add_argument('--load_netC_checkpoint_path', type=str, default=None, help='path to save checkpoints')
         parser.add_argument('--results_path', type=str, default='/home/enterprise.internal.city.ac.uk/adbb120/pifuhd/PIFu/results', help='path to save results ply')
         parser.add_argument('--load_checkpoint_path', type=str, help='path to save results ply')
