@@ -1,0 +1,412 @@
+"Apollo" of Tenea.obj
+"Apollo" of Tenea.mtl
+"Xanten Youth".obj
+"Xanten Youth".mtl
+A statuette of "Paris".obj
+A statuette of "Paris".mtl
+Abbot at The Musée des Beaux-Arts, Lyon.obj
+Abbot at The Musée des Beaux-Arts, Lyon.mtl
+Adam and Eve: Adam.obj
+Adam and Eve: Adam.mtl
+Adam and Eve: Eve.obj
+Adam and Eve: Eve.mtl
+Adam at The Musée Rodin, Paris.obj
+Adam at The Musée Rodin, Paris.mtl
+Albert Szent-Györgyi in Szeged, Hungary.obj
+Albert Szent-Györgyi in Szeged, Hungary.mtl
+Allegory of Justice (?).obj
+Allegory of Justice (?).mtl
+Allegory of the River Saône in Lyon, France.obj
+Allegory of the River Saône in Lyon, France.mtl
+"Ntadi" figure.obj
+"Ntadi" figure.mtl
+"The Younger Memnon", Colossal bust of Ramesses II.obj
+"The Younger Memnon", Colossal bust of Ramesses II.mtl
+A Roman marble bust of the Emperor Caracalla, of the "sole-rule" type.obj
+A Roman marble bust of the Emperor Caracalla, of the "sole-rule" type.mtl
+Acrolith of Apollo at The National Museum of Magna Græcia, Italy.obj
+Acrolith of Apollo at The National Museum of Magna Græcia, Italy.mtl
+Adrien Prévost de Longpérier at The Louvre, Paris.obj
+Adrien Prévost de Longpérier at The Louvre, Paris.mtl
+African Head at The Réunion des Musées Nationaux, Paris.obj
+African Head at The Réunion des Musées Nationaux, Paris.mtl
+Alex-Antoine Régny at The Musée des Beaux-Arts, Lyon.obj
+Alex-Antoine Régny at The Musée des Beaux-Arts, Lyon.mtl
+Alexandre Sévère in Lens, France.obj
+Alexandre Sévère in Lens, France.mtl
+Alphonse de Lamartine at The Réunion des Musées Nationaux, Paris.obj
+Alphonse de Lamartine at The Réunion des Musées Nationaux, Paris.mtl
+Antefix (end-tile): head of the Gorgon at The British Museum, London.obj
+Antefix (end-tile): head of the Gorgon at The British Museum, London.mtl
+Anchyrrohée or Terpsichore at The Louvre, Paris.obj
+Anchyrrohée or Terpsichore at The Louvre, Paris.mtl
+Andrieu dAndres at The Musée Rodin, Paris.obj
+Andrieu dAndres at The Musée Rodin, Paris.mtl
+Angel holding a Phylactery at The Musée des Beaux-Arts, Lyon.obj
+Angel holding a Phylactery at The Musée des Beaux-Arts, Lyon.mtl
+Angel of the Annunciation (?).obj
+Angel of the Annunciation (?).mtl
+Artemis, known as the ‘Diana of Gabii’  Marble.obj
+Artemis, known as the ‘Diana of Gabii’  Marble.mtl
+Athena at The Réunion des Musées Nationaux, Paris.obj
+Athena at The Réunion des Musées Nationaux, Paris.mtl
+Bacchanalian Figure at The Musée des Beaux-Arts, Lyon.obj
+Bacchanalian Figure at The Musée des Beaux-Arts, Lyon.mtl
+Bacchante with Roses at The Réunion des Musées Nationaux, Paris.obj
+Bacchante with Roses at The Réunion des Musées Nationaux, Paris.mtl
+Bach at The Réunion des Musées Nationaux, Paris.obj
+Bach at The Réunion des Musées Nationaux, Paris.mtl
+Bálint Sándor Bust in Szeged, Hungary.obj
+Bálint Sándor Bust in Szeged, Hungary.mtl
+Beethoven at The Réunion des Musées Nationaux, Paris.obj
+Beethoven at The Réunion des Musées Nationaux, Paris.mtl
+Benczúr Gyula Bust in Szeged, Hungary.obj
+Benczúr Gyula Bust in Szeged, Hungary.mtl
+Béla Károlyi bust in Deva, Romania.obj
+Béla Károlyi bust in Deva, Romania.mtl
+Atalanta from Boulevard Anspach at The Musée Rodin, Paris.obj
+Atalanta from Boulevard Anspach at The Musée Rodin, Paris.mtl
+Áron Márton in Cluj, Romania.obj
+Áron Márton in Cluj, Romania.mtl
+Bachó István.obj
+Bachó István.mtl
+Bathing Woman at The Réunion des Musées Nationaux, Paris.obj
+Bathing Woman at The Réunion des Musées Nationaux, Paris.mtl
+Beatrice at The Musée des Beaux-Arts, Lyon.obj
+Beatrice at The Musée des Beaux-Arts, Lyon.mtl
+Brunhilde in the Fin-de-Siècle Museum, Brussels, Belgium.obj
+Brunhilde in the Fin-de-Siècle Museum, Brussels, Belgium.mtl
+Bust of Antinous as Dionysus at The Réunion des Musées Nationaux, Paris.obj
+Bust of Antinous as Dionysus at The Réunion des Musées Nationaux, Paris.mtl
+Boy with lorbé.obj
+Boy with lorbé.mtl
+Brutus The Younger at The Réunion des Musées Nationaux, Paris.obj
+Brutus The Younger at The Réunion des Musées Nationaux, Paris.mtl
+Bust of a Man at The Musée des Beaux-Arts, Lyon.obj
+Bust of a Man at The Musée des Beaux-Arts, Lyon.mtl
+Bust of Antonina krasinska née Czacka.obj
+Bust of Antonina krasinska née Czacka.mtl
+Bust of a Woman (Artemis?).obj
+Bust of a Woman (Artemis?).mtl
+Bust of Caracalla at The Réunion des Musées Nationaux, Paris.obj
+Bust of Caracalla at The Réunion des Musées Nationaux, Paris.mtl
+Bust of Antinous du Capitole at The Réunion des Musées Nationaux, Paris.obj
+Bust of Antinous du Capitole at The Réunion des Musées Nationaux, Paris.mtl
+Bust of Angélique d’Hannetaire.obj
+Bust of Angélique d’Hannetaire.mtl
+Bust of a Woman : Ariadne at The Louvre, Paris.obj
+Bust of a Woman : Ariadne at The Louvre, Paris.mtl
+Bust of a Man at the The Réunion des Musées Nationaux, Paris.obj
+Bust of a Man at the The Réunion des Musées Nationaux, Paris.mtl
+Buddha paré at the Guimet museum, Paris, France.obj
+Buddha paré at the Guimet museum, Paris, France.mtl
+Bust of a general : Aleksander III.obj
+Bust of a general : Aleksander III.mtl
+Bust of Anna Svídnická.obj
+Bust of Anna Svídnická.mtl
+Bust of a Woman at The Réunion des Musées Nationaux, Paris.obj
+Bust of a Woman at The Réunion des Musées Nationaux, Paris.mtl
+Bust of Vévoda Václav Lucemburský.obj
+Bust of Vévoda Václav Lucemburský.mtl
+Bust of Jesus at The Réunion des Musées Nationaux, Paris.obj
+Bust of Jesus at The Réunion des Musées Nationaux, Paris.mtl
+Bust of Melpomene at The Réunion des Musées Nationaux, Paris.obj
+Bust of Melpomene at The Réunion des Musées Nationaux, Paris.mtl
+Bust of Moliere at The Réunion des Musées Nationaux, Paris.obj
+Bust of Moliere at The Réunion des Musées Nationaux, Paris.mtl
+Bust of Lucius Verus at The Réunion des Musées Nationaux, Paris.obj
+Bust of Lucius Verus at The Réunion des Musées Nationaux, Paris.mtl
+Bust of Madame Récamier at The Barber Institute, Birmingham.obj
+Bust of Madame Récamier at The Barber Institute, Birmingham.mtl
+Bust of Voltaire at The Réunion des Musées Nationaux, Paris.obj
+Bust of Voltaire at The Réunion des Musées Nationaux, Paris.mtl
+Bust of Louis XIV at The Réunion des Musées Nationaux, Paris.obj
+Bust of Louis XIV at The Réunion des Musées Nationaux, Paris.mtl
+Bust of The Apollo Belvedere at The Réunion des Musées Nationaux, Paris.obj
+Bust of The Apollo Belvedere at The Réunion des Musées Nationaux, Paris.mtl
+Bust of The Nymph Salmacis at The Réunion des Musées Nationaux, Paris.obj
+Bust of The Nymph Salmacis at The Réunion des Musées Nationaux, Paris.mtl
+Bust of Juliette Récamier at The Kiev Museum of Art, Ukraine.obj
+Bust of Juliette Récamier at The Kiev Museum of Art, Ukraine.mtl
+Bust of Pastor at The Réunion des Musées Nationaux, Paris.obj
+Bust of Pastor at The Réunion des Musées Nationaux, Paris.mtl
+Bust of Orestes at The Réunion des Musées Nationaux, Paris.obj
+Bust of Orestes at The Réunion des Musées Nationaux, Paris.mtl
+Carl Blümel (1893 - 1976).obj
+Carl Blümel (1893 - 1976).mtl
+Capitoline Antinous at The Réunion des Musées Nationaux, Paris.obj
+Capitoline Antinous at The Réunion des Musées Nationaux, Paris.mtl
+Bust of László Szalay.obj
+Bust of László Szalay.mtl
+Bust of Marianne (Catherine Deneuve) at The Réunion des Musées Nationaux, Paris.obj
+Bust of Marianne (Catherine Deneuve) at The Réunion des Musées Nationaux, Paris.mtl
+Bust of Mozart at The Réunion des Musées Nationaux, Paris.obj
+Bust of Mozart at The Réunion des Musées Nationaux, Paris.mtl
+Bust of Nicolas Poussin (?).obj
+Bust of Nicolas Poussin (?).mtl
+Bust of Zeus at The Réunion des Musées Nationaux, Paris.obj
+Bust of Zeus at The Réunion des Musées Nationaux, Paris.mtl
+Bust of Poliorketes (?).obj
+Bust of Poliorketes (?).mtl
+Chopin at The Réunion des Musées Nationaux, Paris.obj
+Chopin at The Réunion des Musées Nationaux, Paris.mtl
+Colossal Head of a Goddess (Mens?).obj
+Colossal Head of a Goddess (Mens?).mtl
+Clay bust of a goddess (Demeter?).obj
+Clay bust of a goddess (Demeter?).mtl
+Clélia at The Palais des Beaux-Arts in Lille, France.obj
+Clélia at The Palais des Beaux-Arts in Lille, France.mtl
+Colossal statue of Constantine: head.obj
+Colossal statue of Constantine: head.mtl
+Claude Gellée at The Musée Rodin, Paris.obj
+Claude Gellée at The Musée Rodin, Paris.mtl
+Chactas Meditating on Atalas Tomb at The Musée des Beaux-Arts, Lyon.obj
+Chactas Meditating on Atalas Tomb at The Musée des Beaux-Arts, Lyon.mtl
+Charity (?) at The Musée des Beaux-Arts, Lyon.obj
+Charity (?) at The Musée des Beaux-Arts, Lyon.mtl
+Chloé at The Musée des Beaux-Arts, Lyon.obj
+Chloé at The Musée des Beaux-Arts, Lyon.mtl
+Cinerary Urn: Reclining Young Man.obj
+Cinerary Urn: Reclining Young Man.mtl
+Child With Goose at the Institut für Klassische Archäologie, Vienna.obj
+Child With Goose at the Institut für Klassische Archäologie, Vienna.mtl
+Christian martyr, "Not of this world".obj
+Christian martyr, "Not of this world".mtl
+Crouching Woman at La Musée Rodin, France.obj
+Crouching Woman at La Musée Rodin, France.mtl
+Cristo de la Caida, Hellín escultor:  José Zamorano 1995.obj
+Cristo de la Caida, Hellín escultor:  José Zamorano 1995.mtl
+Dicré at the Louvre, Paris, France.obj
+Dicré at the Louvre, Paris, France.mtl
+Dancing satyr from a so-called group “Invitation to the dance”.obj
+Dancing satyr from a so-called group “Invitation to the dance”.mtl
+Danaë at the altar.obj
+Danaë at the altar.mtl
+Delaunay at The Musée Carnavalet, Paris.obj
+Delaunay at The Musée Carnavalet, Paris.mtl
+Diane (?).obj
+Diane (?).mtl
+Désiré-Joseph Mercier in Brussels, Belgium.obj
+Désiré-Joseph Mercier in Brussels, Belgium.mtl
+Diane (?).obj
+Diane (?).mtl
+Emperor Geta at The Réunion des Musées Nationaux, Paris.obj
+Emperor Geta at The Réunion des Musées Nationaux, Paris.mtl
+Empress Josephine at The Réunion des Musées Nationaux, Paris.obj
+Empress Josephine at The Réunion des Musées Nationaux, Paris.mtl
+Emotion at The Musée des Beaux-Arts, Lyon.obj
+Emotion at The Musée des Beaux-Arts, Lyon.mtl
+Drunken Silenus at The Musée des Beaux-Arts, Lyon.obj
+Drunken Silenus at The Musée des Beaux-Arts, Lyon.mtl
+Dugonics András in Szeged, Hungary.obj
+Dugonics András in Szeged, Hungary.mtl
+Erzsébet Királyné in Szeged, Hungary.obj
+Erzsébet Királyné in Szeged, Hungary.mtl
+Draped Muse at The Réunion des Musées Nationaux, Paris.obj
+Draped Muse at The Réunion des Musées Nationaux, Paris.mtl
+Eugene Delacroix at The Réunion des Musées Nationaux, Paris.obj
+Eugene Delacroix at The Réunion des Musées Nationaux, Paris.mtl
+Eugénie Maria Wynne.obj
+Eugénie Maria Wynne.mtl
+Fantasy Bust of a Veiled Woman (Marguerite Bellanger?).obj
+Fantasy Bust of a Veiled Woman (Marguerite Bellanger?).mtl
+Feketeházy János Bust in Szeged, Hungary.obj
+Feketeházy János Bust in Szeged, Hungary.mtl
+Female (?) head.obj
+Female (?) head.mtl
+Eve at The Musée Rodin, Paris.obj
+Eve at The Musée Rodin, Paris.mtl
+Fallen caryatid with stone at Musée Rodin, Paris, France.obj
+Fallen caryatid with stone at Musée Rodin, Paris, France.mtl
+Fallen Caryatid with Urn at the Musée Rodin, Paris.obj
+Fallen Caryatid with Urn at the Musée Rodin, Paris.mtl
+Femme à la Fontaine.obj
+Femme à la Fontaine.mtl
+Fragment of Jesus at The Réunion des Musées Nationaux, Paris.obj
+Fragment of Jesus at The Réunion des Musées Nationaux, Paris.mtl
+Francois-Paul de Veuville de Villeroy at The Musée des Beaux-Arts, Lyon.obj
+Francois-Paul de Veuville de Villeroy at The Musée des Beaux-Arts, Lyon.mtl
+François Arago at The Louvre, Paris.obj
+François Arago at The Louvre, Paris.mtl
+François-Marie Arouet (Voltaire).obj
+François-Marie Arouet (Voltaire).mtl
+Frans Eemil Sillanpää.obj
+Frans Eemil Sillanpää.mtl
+Frédéric de La Tour du Pin at The Louvre, Paris.obj
+Frédéric de La Tour du Pin at The Louvre, Paris.mtl
+Frédéric Kuhlmann at the Palace of Beaux-Arts in Lille, France.obj
+Frédéric Kuhlmann at the Palace of Beaux-Arts in Lille, France.mtl
+Funerary Bas-relief 1: Womans bust.obj
+Funerary Bas-relief 1: Womans bust.mtl
+Funerary Bas-relief 2: Womans bust.obj
+Funerary Bas-relief 2: Womans bust.mtl
+Francis II Rákóczi in Szeged, Hungary.obj
+Francis II Rákóczi in Szeged, Hungary.mtl
+Georges Méliès Bust at the Père Lachaise Cemetery, Paris.obj
+Georges Méliès Bust at the Père Lachaise Cemetery, Paris.mtl
+Giuseppe Balsamo, "Conte di Cagliostro".obj
+Giuseppe Balsamo, "Conte di Cagliostro".mtl
+Gregor József Bust in Szeged, Hungary.obj
+Gregor József Bust in Szeged, Hungary.mtl
+Gilliat Seized by the Octopus at The Musée des Beaux-Arts, Lyon.obj
+Gilliat Seized by the Octopus at The Musée des Beaux-Arts, Lyon.mtl
+Giotto Drawing in the Sand at The Musée des Beaux-Arts, Lyon.obj
+Giotto Drawing in the Sand at The Musée des Beaux-Arts, Lyon.mtl
+Head and part of the chest of a female statue, possibly an acrolith*.obj
+Head and part of the chest of a female statue, possibly an acrolith*.mtl
+Head of a Combatant (or "Head of Hercules".obj
+Head of a Combatant (or "Head of Hercules".mtl
+Head of a figure of an athlete (?) (so-called Narkissos).obj
+Head of a figure of an athlete (?) (so-called Narkissos).mtl
+Head of a goddess (Aphrodite ?).obj
+Head of a goddess (Aphrodite ?).mtl
+Head of a Man at The Réunion des Musées Nationaux, Paris.obj
+Head of a Man at The Réunion des Musées Nationaux, Paris.mtl
+Head of a Prophet at The Musée des Beaux-Arts, Lyon.obj
+Head of a Prophet at The Musée des Beaux-Arts, Lyon.mtl
+Head of a Virgin at The Musée des Beaux-Arts, Lyon.obj
+Head of a Virgin at The Musée des Beaux-Arts, Lyon.mtl
+Head of a Woman at The Réunion des Musées Nationaux, Paris.obj
+Head of a Woman at The Réunion des Musées Nationaux, Paris.mtl
+Head of a woman whose hair is restrained by a headband: Goddess (?).obj
+Head of a woman whose hair is restrained by a headband: Goddess (?).mtl
+Harlequin at The Musée des Beaux-Arts, Lyon.obj
+Harlequin at The Musée des Beaux-Arts, Lyon.mtl
+Head of The Rampin Rider at The Réunion des Musées Nationaux, Paris.obj
+Head of The Rampin Rider at The Réunion des Musées Nationaux, Paris.mtl
+Head of The Varvakeion Athena at The Réunion des Musées Nationaux, Paris.obj
+Head of The Varvakeion Athena at The Réunion des Musées Nationaux, Paris.mtl
+Head of the Virgin at The Musée des Beaux-Arts, Lyon.obj
+Head of the Virgin at The Musée des Beaux-Arts, Lyon.mtl
+Head of Venus at The Réunion des Musées Nationaux, Paris.obj
+Head of Venus at The Réunion des Musées Nationaux, Paris.mtl
+Head of Zeus at The Réunion des Musées Nationaux, Paris.obj
+Head of Zeus at The Réunion des Musées Nationaux, Paris.mtl
+Herm of a Bearded God: Hermes.obj
+Herm of a Bearded God: Hermes.mtl
+Herm of Plato at the Institut für Klassische Archäologie, Vienna.obj
+Herm of Plato at the Institut für Klassische Archäologie, Vienna.mtl
+Hermes fastening his sandal at the Institut für Klassische Archäologie, Vienna.obj
+Hermes fastening his sandal at the Institut für Klassische Archäologie, Vienna.mtl
+Inscription: repair of land walls.obj
+Inscription: repair of land walls.mtl
+Inscription: repair of sea walls.obj
+Inscription: repair of sea walls.mtl
+Inscription: Repair of Seaward Walls.obj
+Inscription: Repair of Seaward Walls.mtl
+La Pietà.obj
+La Pietà.mtl
+Le Transi de Rene de Chalon at The Musée des Monuments Francais, France.obj
+Le Transi de Rene de Chalon at The Musée des Monuments Francais, France.mtl
+Leroux at The Musée Carnavalet, Paris.obj
+Leroux at The Musée Carnavalet, Paris.mtl
+Leda at The Musée des Beaux-Arts, Lyon.obj
+Leda at The Musée des Beaux-Arts, Lyon.mtl
+Louis Phélipeaux de la Vrilliere.obj
+Louis Phélipeaux de la Vrilliere.mtl
+La vérité at the Palais des Beaux-Arts de Lille, Paris.obj
+La vérité at the Palais des Beaux-Arts de Lille, Paris.mtl
+LAmitié (Friendship) at The Louvre, Paris.obj
+LAmitié (Friendship) at The Louvre, Paris.mtl
+Le Réveil  Galatea.obj
+Le Réveil  Galatea.mtl
+Liszt at The Réunion des Musées Nationaux, Paris.obj
+Liszt at The Réunion des Musées Nationaux, Paris.mtl
+Madonna of Žinkovy.obj
+Madonna of Žinkovy.mtl
+Mahieu Molé at the Louvre museum, Paris.obj
+Mahieu Molé at the Louvre museum, Paris.mtl
+Madame Récamier.obj
+Madame Récamier.mtl
+Márta Károlyi bust in Deva, Romania.obj
+Márta Károlyi bust in Deva, Romania.mtl
+Medallion Bust of a Woman at The Musée des Beaux-Arts, Lyon.obj
+Medallion Bust of a Woman at The Musée des Beaux-Arts, Lyon.mtl
+MEDUSA ("Rondanini).obj
+MEDUSA ("Rondanini).mtl
+Meditation at The Musée des Beaux-Arts, Lyon.obj
+Meditation at The Musée des Beaux-Arts, Lyon.mtl
+Meditation at The Musée Rodin, Paris.obj
+Meditation at The Musée Rodin, Paris.mtl
+Mother Nature at The Einar Jónsson sculpture park, Iceland.obj
+Mother Nature at The Einar Jónsson sculpture park, Iceland.mtl
+Mujer at Barcelona–El Prat Airport, Spain.obj
+Mujer at Barcelona–El Prat Airport, Spain.mtl
+Monumento a la Revolución - Mexico City.obj
+Monumento a la Revolución - Mexico City.mtl
+Mother and child : Block seat.obj
+Mother and child : Block seat.mtl
+Pandora at The Musée des Beaux-Arts, Lyon.obj
+Pandora at The Musée des Beaux-Arts, Lyon.mtl
+Panel illustrating the story of Methuselah (?).obj
+Panel illustrating the story of Methuselah (?).mtl
+Pálfy-Budinszky Endre in Szeged, Hungary.obj
+Pálfy-Budinszky Endre in Szeged, Hungary.mtl
+Portrait of a Hellenistic Queen Arsinoe III of Egypt (?).obj
+Portrait of a Hellenistic Queen Arsinoe III of Egypt (?).mtl
+Portrait of Livilla (?).obj
+Portrait of Livilla (?).mtl
+Portrait of Honoré de Balzac.obj
+Portrait of Honoré de Balzac.mtl
+Portrait of a woman (Marchesa Ginori?).obj
+Portrait of a woman (Marchesa Ginori?).mtl
+Portrait of Natalie de Laborde at The Réunion des Musées Nationaux, Paris.obj
+Portrait of Natalie de Laborde at The Réunion des Musées Nationaux, Paris.mtl
+Portrait of a Roman youth (prince?).obj
+Portrait of a Roman youth (prince?).mtl
+Portrait of a Prince (?).obj
+Portrait of a Prince (?).mtl
+Portrait bust of a young Syrian (?).obj
+Portrait bust of a young Syrian (?).mtl
+Portrait head of Traian (?).obj
+Portrait head of Traian (?).mtl
+Portrait of an unknown Isiac Priest (?) head.obj
+Portrait of an unknown Isiac Priest (?) head.mtl
+Portrait of Valeria Maximilla (?).obj
+Portrait of Valeria Maximilla (?).mtl
+Prayer (La Prière).obj
+Prayer (La Prière).mtl
+Relief: Workers.obj
+Relief: Workers.mtl
+Relief: Madonna and Child with St John the Baptist.obj
+Relief: Madonna and Child with St John the Baptist.mtl
+Relief: Scene from a Comedy.obj
+Relief: Scene from a Comedy.mtl
+Reliefs from a Funerary Monument: Electra recognizes her brother Orestres.obj
+Reliefs from a Funerary Monument: Electra recognizes her brother Orestres.mtl
+Relief: Detail of Orsanmichele Tabernacle.obj
+Relief: Detail of Orsanmichele Tabernacle.mtl
+Relief: Baptist Preaching- Siena Baptistery.obj
+Relief: Baptist Preaching- Siena Baptistery.mtl
+Relief: Farmers.obj
+Relief: Farmers.mtl
+Relief: Presentation in the Temple.obj
+Relief: Presentation in the Temple.mtl
+Relief: Defenders of Leningrad.obj
+Relief: Defenders of Leningrad.mtl
+Reliefs from a Funerary Monument: Antigone leads her blind father Oedipus.obj
+Reliefs from a Funerary Monument: Antigone leads her blind father Oedipus.mtl
+Saint Constance at The Réunion des Musées Nationaux, Paris.obj
+Saint Constance at The Réunion des Musées Nationaux, Paris.mtl
+Saint Catherine at The Musée des Beaux-Arts, Lyon.obj
+Saint Catherine at The Musée des Beaux-Arts, Lyon.mtl
+Ritratto di Traiano (?).obj
+Ritratto di Traiano (?).mtl
+Salomé at The Reunion des Musées Nationaux, Paris.obj
+Salomé at The Reunion des Musées Nationaux, Paris.mtl
+Sand sculpture of Tomáš Garrigue Masaryk.obj
+Sand sculpture of Tomáš Garrigue Masaryk.mtl
+Sant Miquel Arcàngel.obj
+Sant Miquel Arcàngel.mtl
+Santiago Matemoros at San Cristóbal de las Casas, Mexico.obj
+Santiago Matemoros at San Cristóbal de las Casas, Mexico.mtl
+Sculpture at The Réunion des Musées Nationaux, Paris.obj
+Sculpture at The Réunion des Musées Nationaux, Paris.mtl
+Sculpture of Raphael (?) at The Borghese Gardens, Rome.obj
+Sculpture of Raphael (?) at The Borghese Gardens, Rome.mtl
+Seated Cupid at The Réunion des Musées Nationaux, Paris.obj
+Seated Cupid at The Réunion des Musées Nationaux, Paris.mtl
+Shot Putter, Sergey Smirnov (?).obj
+Shot Putter, Sergey Smirnov (?).mtl
+Schubert at The Réunion des Musées Nationaux, Paris.obj
+Schubert at The Réunion des Musées Nationaux, Paris.mtl
